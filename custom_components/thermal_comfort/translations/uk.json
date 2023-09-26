@@ -106,7 +106,19 @@
         "state": {
           "outside_calculable_range": "За межами обчислюваного діапазону",
           "comfortable": "Комфортно",
-          "slightly_uncomfortable": "Трохи незручно"
+          "slightly_uncomfortable": "Трохи незручно",
+          "moderatly_uncomfortable": "Помірно незручно",
+          "highly_uncomfortable": "Дуже незручно"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Сприйняття зимового шарлау",
+        "state": {
+          "outside_calculable_range": "За межами обчислюваного діапазону",
+          "comfortable": "Комфортно",
+          "slightly_uncomfortable": "Трохи незручно",
+          "moderatly_uncomfortable": "Помірно незручно",
+          "highly_uncomfortable": "Дуже незручно"
         }
       },
       "summer_simmer_perception": {

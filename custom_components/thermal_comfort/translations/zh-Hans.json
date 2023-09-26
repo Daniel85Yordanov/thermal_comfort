@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "冬季沙劳感知",
         "state": {
           "outside_calculable_range": "超出可计算范围",
           "comfortable": "舒适",

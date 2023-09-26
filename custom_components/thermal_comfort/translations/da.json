@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Winter scharlau opfattelse",
         "state": {
           "outside_calculable_range": "Uden for det beregnelige område",
           "comfortable": "Komfortabel",

@@ -106,7 +106,18 @@
           "outside_calculable_range": "Mimo vypočítatelný rozsah",
           "comfortable": "Komfortní",
           "slightly_uncomfortable": "Mírně nepohodlné",
-          "moderatly_uncomfortable": "Středně nepohodlné"
+          "moderatly_uncomfortable": "Středně nepohodlné",
+          "highly_uncomfortable": "Vysoce nepohodlné"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Zimní vnímání scharlau",
+        "state": {
+          "outside_calculable_range": "Mimo vypočítatelný rozsah",
+          "comfortable": "Komfortní",
+          "slightly_uncomfortable": "Mírně nepohodlné",
+          "moderatly_uncomfortable": "Středně nepohodlné",
+          "highly_uncomfortable": "Vysoce nepohodlné"
         }
       },
       "summer_simmer_perception": {

@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Winter Scharlau-perceptie",
         "state": {
           "outside_calculable_range": "Buiten het berekenbare bereik",
           "comfortable": "Gemakkelijk",

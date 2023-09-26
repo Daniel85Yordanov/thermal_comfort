@@ -107,7 +107,18 @@
           "outside_calculable_range": "A kiszámítható tartományon kívül",
           "comfortable": "Kényelmes",
           "slightly_uncomfortable": "Kissé kényelmetlen",
-          "moderatly_uncomfortable": "Mérsékelten kényelmetlen"
+          "moderatly_uncomfortable": "Mérsékelten kényelmetlen",
+          "highly_uncomfortable": "Nagyon kényelmetlen"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Téli scharlau felfogás",
+        "state": {
+          "outside_calculable_range": "A kiszámítható tartományon kívül",
+          "comfortable": "Kényelmes",
+          "slightly_uncomfortable": "Kissé kényelmetlen",
+          "moderatly_uncomfortable": "Mérsékelten kényelmetlen",
+          "highly_uncomfortable": "Nagyon kényelmetlen"
         }
       },
       "summer_simmer_perception": {

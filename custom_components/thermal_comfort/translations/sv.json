@@ -106,7 +106,19 @@
         "state": {
           "outside_calculable_range": "Utanför det beräkningsbara intervallet",
           "comfortable": "Bekväm",
-          "slightly_uncomfortable": "Lite obehagligt"
+          "slightly_uncomfortable": "Lite obehagligt",
+          "moderatly_uncomfortable": "Måttligt obekvämt",
+          "highly_uncomfortable": "Mycket obekvämt"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Winter scharlau uppfattning",
+        "state": {
+          "outside_calculable_range": "Utanför det beräkningsbara intervallet",
+          "comfortable": "Bekväm",
+          "slightly_uncomfortable": "Lite obehagligt",
+          "moderatly_uncomfortable": "Måttligt obekvämt",
+          "highly_uncomfortable": "Mycket obekvämt"
         }
       },
       "summer_simmer_perception": {

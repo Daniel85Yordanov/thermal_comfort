@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Χειμερινή αντίληψη σαρλάου",
         "state": {
           "outside_calculable_range": "Εκτός του υπολογίσιμου εύρους",
           "comfortable": "Άνετη",

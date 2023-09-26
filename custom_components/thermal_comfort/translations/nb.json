@@ -107,7 +107,18 @@
           "outside_calculable_range": "Utenfor det kalkulerbare området",
           "comfortable": "Komfortabel",
           "slightly_uncomfortable": "Litt ubehagelig",
-          "moderatly_uncomfortable": "Middels ubehagelig"
+          "moderatly_uncomfortable": "Middels ubehagelig",
+          "highly_uncomfortable": "Svært ubehagelig"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Winter scharlau persepsjon",
+        "state": {
+          "outside_calculable_range": "Utenfor det kalkulerbare området",
+          "comfortable": "Komfortabel",
+          "slightly_uncomfortable": "Litt ubehagelig",
+          "moderatly_uncomfortable": "Middels ubehagelig",
+          "highly_uncomfortable": "Svært ubehagelig"
         }
       }
     }

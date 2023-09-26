@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Iarnă scharlau percepție",
         "state": {
           "outside_calculable_range": "În afara intervalului calculabil",
           "comfortable": "Confortabil",

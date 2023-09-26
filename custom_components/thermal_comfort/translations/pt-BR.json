@@ -107,7 +107,18 @@
           "outside_calculable_range": "Fora da faixa calculável",
           "comfortable": "Confortável",
           "slightly_uncomfortable": "Um pouco desconfortável",
-          "moderatly_uncomfortable": "Moderadamente desconfortável"
+          "moderatly_uncomfortable": "Moderadamente desconfortável",
+          "highly_uncomfortable": "Altamente desconfortável"
+        }
+      },
+      "winter_scharlau_perception": {
+        "name": "Percepção de Scharlau de inverno",
+        "state": {
+          "outside_calculable_range": "Fora da faixa calculável",
+          "comfortable": "Confortável",
+          "slightly_uncomfortable": "Um pouco desconfortável",
+          "moderatly_uncomfortable": "Moderadamente desconfortável",
+          "highly_uncomfortable": "Altamente desconfortável"
         }
       },
       "summer_simmer_perception": {

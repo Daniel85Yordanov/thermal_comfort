@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Perception du scharlau hivernal",
         "state": {
           "outside_calculable_range": "En dehors de la plage calculable",
           "comfortable": "Confortable",

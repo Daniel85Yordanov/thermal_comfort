@@ -117,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Восприятие зимнего шарлау",
         "state": {
           "outside_calculable_range": "Значения датчиков вне допустимого диапазона",
           "comfortable": "Комфортно",

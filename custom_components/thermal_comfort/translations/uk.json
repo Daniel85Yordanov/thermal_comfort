@@ -21,11 +21,32 @@
     "error": {
       "temperature_not_found": "Датчик температури не знайдено",
       "humidity_not_found": "Датчик вологості не знайдено"
+    },
+    "step": {
+      "user": {
+        "title": "Параметри теплового комфорту",
+        "data": {
+          "name": "Ім'я",
+          "temperature_sensor": "Температурний сенсор",
+          "humidity_sensor": "Датчик вологості",
+          "poll": "Увімкнути опитування",
+          "scan_interval": "Інтервал опитування (секунди)",
+          "custom_icons": "Використовуйте спеціальний пакет іконок",
+          "enabled_sensors": "Увімкнені датчики"
+        }
+      }
     }
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Абсолютна вологість"
+      },
+      "dew_point": {
+        "name": "точка роси"
+      },
       "dew_point_perception": {
+        "name": "Сприйняття точки роси",
         "state": {
           "dry": "Сухо",
           "very_comfortable": "Дуже комфортно",
@@ -37,12 +58,55 @@
           "severely_high": "Дуже висока вологість, може бути смертельною для для астматиків"
         }
       },
+      "frost_point": {
+        "name": "Точка замерзання"
+      },
       "frost_risk": {
+        "name": "Ризик заморозків",
         "state": {
           "no_risk": "Безпечно",
           "unlikely": "Малоймовірно",
           "probable": "Ймовірно",
           "high": "Висока ймовірність"
+        }
+      },
+      "heat_index": {
+        "name": "Індекс тепла"
+      },
+      "humidex": {
+        "name": "Гумідекс"
+      },
+      "humidex_perception": {
+        "name": "Сприйняття Humidex",
+        "state": {
+          "comfortable": "Комфортно",
+          "noticable_discomfort": "Відчутний дискомфорт",
+          "evident_discomfort": "Явний дискомфорт",
+          "great_discomfort": "Сильний дискомфорт, уникайте навантажень",
+          "dangerous_discomfort": "Небезпечний дискомфорт",
+          "heat_stroke": "Можливий тепловий удар"
+        }
+      },
+      "moist_air_enthalpy": {
+        "name": "Ентальпія вологого повітря"
+      },
+      "relative_strain_perception": {
+        "name": "Сприйняття відносної деформації",
+        "state": {
+          "outside_calculable_range": "За межами обчислюваного діапазону",
+          "comfortable": "Комфортно",
+          "slight_discomfort": "Невеликий дискомфорт",
+          "discomfort": "Дискомфорт",
+          "significant_discomfort": "Значний дискомфорт",
+          "extreme_discomfort": "Надзвичайний дискомфорт"
+        }
+      },
+      "summer_scharlau_perception": {
+        "name": "Сприйняття літнього шарлау",
+        "state": {
+          "outside_calculable_range": "За межами обчислюваного діапазону",
+          "comfortable": "Комфортно",
+          "slightly_uncomfortable": "Трохи незручно"
         }
       },
       "summer_simmer_perception": {

@@ -21,11 +21,32 @@
     "error": {
       "temperature_not_found": "Temperatursensor hittades inte",
       "humidity_not_found": "Fuktsensorn hittades inte"
+    },
+    "step": {
+      "user": {
+        "title": "Termiska komfortinställningar",
+        "data": {
+          "name": "namn",
+          "temperature_sensor": "Temperatursensor",
+          "humidity_sensor": "Fuktighetssensor",
+          "poll": "Aktivera polling",
+          "scan_interval": "Omröstningsintervall (sekunder)",
+          "custom_icons": "Använd anpassat ikonpaket",
+          "enabled_sensors": "Aktiverade sensorer"
+        }
+      }
     }
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Absolut fuktighet"
+      },
+      "dew_point": {
+        "name": "daggpunkt"
+      },
       "dew_point_perception": {
+        "name": "Daggpunktsuppfattning",
         "state": {
           "dry": "Lite torrt",
           "very_comfortable": "Väldigt bekväm",
@@ -37,12 +58,55 @@
           "severely_high": "Allvarligt högt, kan vara dödlig för astmarelaterade sjukdomar"
         }
       },
+      "frost_point": {
+        "name": "Frostpunkt"
+      },
       "frost_risk": {
+        "name": "Risk för frost",
         "state": {
           "no_risk": "Ingen risk",
           "unlikely": "Osannolikt",
           "probable": "Sannolikt",
           "high": "Stor risk"
+        }
+      },
+      "heat_index": {
+        "name": "Värmeindex"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
+      "humidex_perception": {
+        "name": "Humidex uppfattning",
+        "state": {
+          "comfortable": "Bekväm",
+          "noticable_discomfort": "Märkbart obehag",
+          "evident_discomfort": "Uppenbart obehag",
+          "great_discomfort": "Stort obehag, undvik ansträngning",
+          "dangerous_discomfort": "Farligt obehag",
+          "heat_stroke": "Värmeslag möjligt"
+        }
+      },
+      "moist_air_enthalpy": {
+        "name": "Entalpi av fuktig luft"
+      },
+      "relative_strain_perception": {
+        "name": "Relativ belastningsuppfattning",
+        "state": {
+          "outside_calculable_range": "Utanför det beräkningsbara intervallet",
+          "comfortable": "Bekväm",
+          "slight_discomfort": "Lätt obehag",
+          "discomfort": "Obehag",
+          "significant_discomfort": "Betydande obehag",
+          "extreme_discomfort": "Extremt obehag"
+        }
+      },
+      "summer_scharlau_perception": {
+        "name": "Sommar scharlau uppfattning",
+        "state": {
+          "outside_calculable_range": "Utanför det beräkningsbara intervallet",
+          "comfortable": "Bekväm",
+          "slightly_uncomfortable": "Lite obehagligt"
         }
       },
       "summer_simmer_perception": {

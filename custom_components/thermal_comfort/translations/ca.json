@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Humitat absoluta"
+      },
+      "dew_point": {
+        "name": "punt de rosada"
+      },
       "dew_point_perception": {
+        "name": "Percepció del punt de rosada",
         "state": {
           "dry": "Una mica sec per a alguns",
           "very_comfortable": "Molt còmode",
@@ -56,7 +63,11 @@
           "severely_high": "Molt alt, fins i tot mortal per a persones amb malalties relacionades amb l'asma"
         }
       },
+      "frost_point": {
+        "name": "Punt de gelada"
+      },
       "frost_risk": {
+        "name": "Risc de gelades",
         "state": {
           "no_risk": "Sense risc",
           "unlikely": "Poc probable",
@@ -64,7 +75,14 @@
           "high": "Alta probabilitat"
         }
       },
+      "heat_index": {
+        "name": "Índex de calor"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
       "humidex_perception": {
+        "name": "Percepció Humidex",
         "state": {
           "comfortable": "Còmode",
           "noticable_discomfort": "Una mica incòmode",
@@ -74,7 +92,11 @@
           "heat_stroke": "Possible cop de calor"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Entalpia de l'aire humit"
+      },
       "relative_strain_perception": {
+        "name": "Percepció relativa de la tensió",
         "state": {
           "outside_calculable_range": "Fora de l'interval calculable",
           "comfortable": "Còmode",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Percepció scharlau d'estiu",
         "state": {
           "outside_calculable_range": "Fora de l'interval calculable",
           "comfortable": "Còmode",

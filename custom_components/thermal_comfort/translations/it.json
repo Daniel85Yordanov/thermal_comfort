@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Umidità assoluta"
+      },
+      "dew_point": {
+        "name": "Punto di rugiada"
+      },
       "dew_point_perception": {
+        "name": "Percezione del punto di rugiada",
         "state": {
           "dry": "Secco per qualcuno",
           "very_comfortable": "Molto confortevole",
@@ -56,7 +63,11 @@
           "severely_high": "Estremo disagio, rischioso per malattie correlate all'asma"
         }
       },
+      "frost_point": {
+        "name": "Punto di gelo"
+      },
       "frost_risk": {
+        "name": "Rischio gelate",
         "state": {
           "no_risk": "Nessun rischio",
           "unlikely": "Improbabile",
@@ -64,7 +75,14 @@
           "high": "Alta probabilità"
         }
       },
+      "heat_index": {
+        "name": "Indice di calore"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
       "humidex_perception": {
+        "name": "Percezione dell'Humidex",
         "state": {
           "comfortable": "Confortevole",
           "noticable_discomfort": "Disagio",
@@ -74,7 +92,11 @@
           "heat_stroke": "Probabile colpo di calore"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Entalpia dell'aria umida"
+      },
       "relative_strain_perception": {
+        "name": "Percezione della deformazione relativa",
         "state": {
           "outside_calculable_range": "Fuori scala",
           "comfortable": "Confortevole",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Percezione dello scharlau estivo",
         "state": {
           "outside_calculable_range": "Fuori scala",
           "comfortable": "Confortevole",

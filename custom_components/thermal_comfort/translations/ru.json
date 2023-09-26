@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Абсолютная влажность"
+      },
+      "dew_point": {
+        "name": "точка росы"
+      },
       "dew_point_perception": {
+        "name": "Восприятие точки росы",
         "state": {
           "dry": "Сухо",
           "very_comfortable": "Очень комфортно",
@@ -56,7 +63,11 @@
           "severely_high": "Очень высокая влажность, опасно для астматиков"
         }
       },
+      "frost_point": {
+        "name": "Точка замерзания"
+      },
       "frost_risk": {
+        "name": "Риск заморозков",
         "state": {
           "no_risk": "Не опасно",
           "unlikely": "Маловероятно",
@@ -64,7 +75,14 @@
           "high": "Очень вероятно"
         }
       },
+      "heat_index": {
+        "name": "Индекс тепла"
+      },
+      "humidex": {
+        "name": "Гумидекс"
+      },
       "humidex_perception": {
+        "name": "Восприятие влажности",
         "state": {
           "comfortable": "Комфортно",
           "noticable_discomfort": "Заметный дискомфорт",
@@ -74,7 +92,11 @@
           "heat_stroke": "Возможен тепловой удар"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Энтальпия влажного воздуха"
+      },
       "relative_strain_perception": {
+        "name": "Относительное восприятие напряжения",
         "state": {
           "outside_calculable_range": "Значения датчиков вне допустимого диапазона",
           "comfortable": "Комфортно",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Восприятие Летнего Шарлау",
         "state": {
           "outside_calculable_range": "Значения датчиков вне допустимого диапазона",
           "comfortable": "Комфортно",

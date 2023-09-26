@@ -21,11 +21,32 @@
     "error": {
       "temperature_not_found": "Sensor de temperatura não encontrado",
       "humidity_not_found": "Sensor de umidade não encontrado"
+    },
+    "step": {
+      "user": {
+        "title": "Configurações de conforto térmico",
+        "data": {
+          "name": "Nome",
+          "temperature_sensor": "Sensor de temperatura",
+          "humidity_sensor": "Sensor de umidade",
+          "poll": "Habilitar votação",
+          "scan_interval": "Intervalo de pesquisa (segundos)",
+          "custom_icons": "Use pacote de ícones personalizados",
+          "enabled_sensors": "Sensores habilitados"
+        }
+      }
     }
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Umidade absoluta"
+      },
+      "dew_point": {
+        "name": "ponto de condensação da água"
+      },
       "dew_point_perception": {
+        "name": "Percepção do ponto de orvalho",
         "state": {
           "dry": "Seco",
           "very_comfortable": "Muito confortável",
@@ -37,12 +58,56 @@
           "severely_high": "Severamente úmido"
         }
       },
+      "frost_point": {
+        "name": "Ponto de congelamento"
+      },
       "frost_risk": {
+        "name": "Risco de geada",
         "state": {
           "no_risk": "Sem risco",
           "unlikely": "Improvável",
           "probable": "Provável",
           "high": "Muito provável"
+        }
+      },
+      "heat_index": {
+        "name": "Índice de calor"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
+      "humidex_perception": {
+        "name": "Percepção Humidex",
+        "state": {
+          "comfortable": "Confortável",
+          "noticable_discomfort": "Desconforto perceptível",
+          "evident_discomfort": "Desconforto evidente",
+          "great_discomfort": "Grande desconforto, evite esforço",
+          "dangerous_discomfort": "Desconforto perigoso",
+          "heat_stroke": "Insolação possível"
+        }
+      },
+      "moist_air_enthalpy": {
+        "name": "Entalpia do ar úmido"
+      },
+      "relative_strain_perception": {
+        "name": "Percepção de tensão relativa",
+        "state": {
+          "outside_calculable_range": "Fora da faixa calculável",
+          "comfortable": "Confortável",
+          "slight_discomfort": "Ligeiro desconforto",
+          "discomfort": "Desconforto",
+          "significant_discomfort": "Desconforto significativo",
+          "extreme_discomfort": "Desconforto extremo"
+        }
+      },
+      "summer_scharlau_perception": {
+        "name": "Percepção de Scharlau de verão",
+        "state": {
+          "outside_calculable_range": "Fora da faixa calculável",
+          "comfortable": "Confortável",
+          "slightly_uncomfortable": "Um pouco desconfortável",
+          "moderatly_uncomfortable": "Moderadamente desconfortável"
         }
       },
       "summer_simmer_perception": {

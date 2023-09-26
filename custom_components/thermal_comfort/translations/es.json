@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Humedad absoluta"
+      },
+      "dew_point": {
+        "name": "punto de rocío"
+      },
       "dew_point_perception": {
+        "name": "Percepción del punto de rocío",
         "state": {
           "dry": "Un poco seco para algunos",
           "very_comfortable": "Muy cómodo",
@@ -56,7 +63,11 @@
           "severely_high": "Muy alto, incluso mortal para enfermedades relacionadas con el asma"
         }
       },
+      "frost_point": {
+        "name": "Punto de escarcha"
+      },
       "frost_risk": {
+        "name": "Riesgo de heladas",
         "state": {
           "no_risk": "Sin riesgo",
           "unlikely": "Poco probable",
@@ -64,7 +75,14 @@
           "high": "Alta probabilidad"
         }
       },
+      "heat_index": {
+        "name": "Índice de calor"
+      },
+      "humidex": {
+        "name": "humidex"
+      },
       "humidex_perception": {
+        "name": "Percepción Humidex",
         "state": {
           "comfortable": "Cómodo",
           "noticable_discomfort": "Un poco incómodo",
@@ -74,7 +92,11 @@
           "heat_stroke": "Posible golpe de calor"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Entalpía del aire húmedo"
+      },
       "relative_strain_perception": {
+        "name": "Percepción de tensión relativa",
         "state": {
           "outside_calculable_range": "Fuera del rango calculable",
           "comfortable": "Cómodo",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Percepción de verano scharlau",
         "state": {
           "outside_calculable_range": "Fuera del rango calculable",
           "comfortable": "Cómodo",

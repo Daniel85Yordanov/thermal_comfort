@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Umiditate absolută"
+      },
+      "dew_point": {
+        "name": "punct de condensare"
+      },
       "dew_point_perception": {
+        "name": "Percepția punctului de rouă",
         "state": {
           "dry": "Cam uscat pentru unii",
           "very_comfortable": "Foarte confortabil",
@@ -56,7 +63,11 @@
           "severely_high": "Sever ridicat, chiar mortal pentru bolile legate de astm"
         }
       },
+      "frost_point": {
+        "name": "Punct de îngheț"
+      },
       "frost_risk": {
+        "name": "Risc de îngheț",
         "state": {
           "no_risk": "Niciun risc",
           "unlikely": "Improbabil",
@@ -64,7 +75,14 @@
           "high": "Probabilitate mare"
         }
       },
+      "heat_index": {
+        "name": "Index de caldura"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
       "humidex_perception": {
+        "name": "Percepția Humidex",
         "state": {
           "comfortable": "Confortabil",
           "noticable_discomfort": "Disconfort perceptibil",
@@ -74,7 +92,11 @@
           "heat_stroke": "Posibil accident vascular cerebral cauzat de căldură excesivă"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Entalpia aerului umed"
+      },
       "relative_strain_perception": {
+        "name": "Percepția relativă a tensiunii",
         "state": {
           "outside_calculable_range": "În afara intervalului calculabil",
           "comfortable": "Confortabil",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Summer scharlau perceptie",
         "state": {
           "outside_calculable_range": "În afara intervalului calculabil",
           "comfortable": "Confortabil",

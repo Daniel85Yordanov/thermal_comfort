@@ -21,11 +21,32 @@
     "error": {
       "temperature_not_found": "A hőmérséklet-érzékelő nem található",
       "humidity_not_found": "A páratartalom érzékelő nem található"
+    },
+    "step": {
+      "user": {
+        "title": "Termikus komfort beállítások",
+        "data": {
+          "name": "Név",
+          "temperature_sensor": "Hőmérséklet szenzor",
+          "humidity_sensor": "Páratartalom érzékelő",
+          "poll": "Lekérdezés engedélyezése",
+          "scan_interval": "Szavazási időköz (másodperc)",
+          "custom_icons": "Egyéni ikoncsomag használata",
+          "enabled_sensors": "Engedélyezett érzékelők"
+        }
+      }
     }
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Abszolút nedvesség"
+      },
+      "dew_point": {
+        "name": "Harmatpont"
+      },
       "dew_point_perception": {
+        "name": "Harmatpont érzékelés",
         "state": {
           "dry": "Egyeseknek kissé száraz",
           "very_comfortable": "Nagyon kellemes",
@@ -37,12 +58,56 @@
           "severely_high": "Különösen magas, az asztmás betegségek számára életveszélyes"
         }
       },
+      "frost_point": {
+        "name": "Fagypont"
+      },
       "frost_risk": {
+        "name": "Fagyveszély",
         "state": {
           "no_risk": "Nincs kockázat",
           "unlikely": "Nem valószínű",
           "probable": "Valószínű",
           "high": "Nagy valószínűség"
+        }
+      },
+      "heat_index": {
+        "name": "Hő index"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
+      "humidex_perception": {
+        "name": "Humidex érzékelés",
+        "state": {
+          "comfortable": "Kényelmes",
+          "noticable_discomfort": "Észrevehető kényelmetlenség",
+          "evident_discomfort": "Nyilvánvaló kényelmetlenség",
+          "great_discomfort": "Nagy kényelmetlenség, kerülje a megerőltetést",
+          "dangerous_discomfort": "Veszélyes kényelmetlenség",
+          "heat_stroke": "Hőguta lehetséges"
+        }
+      },
+      "moist_air_enthalpy": {
+        "name": "Nedves levegő entalpia"
+      },
+      "relative_strain_perception": {
+        "name": "Relatív feszültség észlelése",
+        "state": {
+          "outside_calculable_range": "A kiszámítható tartományon kívül",
+          "comfortable": "Kényelmes",
+          "slight_discomfort": "Enyhe kényelmetlenség",
+          "discomfort": "Kényelmetlenség",
+          "significant_discomfort": "Jelentős kényelmetlenség",
+          "extreme_discomfort": "Extrém kényelmetlenség"
+        }
+      },
+      "summer_scharlau_perception": {
+        "name": "Nyári scharlau felfogás",
+        "state": {
+          "outside_calculable_range": "A kiszámítható tartományon kívül",
+          "comfortable": "Kényelmes",
+          "slightly_uncomfortable": "Kissé kényelmetlen",
+          "moderatly_uncomfortable": "Mérsékelten kényelmetlen"
         }
       },
       "summer_simmer_perception": {

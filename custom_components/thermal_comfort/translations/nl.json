@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Absolute vochtigheid"
+      },
+      "dew_point": {
+        "name": "dauwpunt"
+      },
       "dew_point_perception": {
+        "name": "Dauwpuntwaarneming",
         "state": {
           "dry": "Beetje droog voor sommigen",
           "very_comfortable": "Zeer gemakkelijk",
@@ -56,7 +63,11 @@
           "severely_high": "Zeer hoog, zelfs gevaarlijk bij astma gerelateerde ziekten"
         }
       },
+      "frost_point": {
+        "name": "Vorstpunt"
+      },
       "frost_risk": {
+        "name": "Risico op vorst",
         "state": {
           "no_risk": "Geen risico",
           "unlikely": "Onwaarschijnlijk",
@@ -64,7 +75,14 @@
           "high": "Hoogstwaarschijnlijk"
         }
       },
+      "heat_index": {
+        "name": "Warmte-index"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
       "humidex_perception": {
+        "name": "Humidex-perceptie",
         "state": {
           "comfortable": "Gemakkelijk",
           "noticable_discomfort": "Merkbaar ongemak",
@@ -74,7 +92,11 @@
           "heat_stroke": "Hitteberoerte mogelijk"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Enthalpie van vochtige lucht"
+      },
       "relative_strain_perception": {
+        "name": "Relatieve spanningsperceptie",
         "state": {
           "outside_calculable_range": "Buiten het berekenbare bereik",
           "comfortable": "Gemakkelijk",
@@ -85,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Zomer Scharlau-perceptie",
         "state": {
           "outside_calculable_range": "Buiten het berekenbare bereik",
           "comfortable": "Gemakkelijk",

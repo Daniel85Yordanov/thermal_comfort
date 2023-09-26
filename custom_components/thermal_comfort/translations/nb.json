@@ -21,11 +21,32 @@
     "error": {
       "temperature_not_found": "Finner ikke temperatursensor",
       "humidity_not_found": "Fuktighetssensor ikke funnet"
+    },
+    "step": {
+      "user": {
+        "title": "Termiske komfortinnstillinger",
+        "data": {
+          "name": "Navn",
+          "temperature_sensor": "Temperatur sensor",
+          "humidity_sensor": "Fuktighetssensor",
+          "poll": "Aktiver polling",
+          "scan_interval": "Avstemningsintervall (sekunder)",
+          "custom_icons": "Bruk tilpasset ikonpakke",
+          "enabled_sensors": "Aktiverte sensorer"
+        }
+      }
     }
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Absolutt fuktighet"
+      },
+      "dew_point": {
+        "name": "duggpunkt"
+      },
       "dew_point_perception": {
+        "name": "Duggpunktoppfatning",
         "state": {
           "dry": "A bit dry for some",
           "very_comfortable": "Very comfortable",
@@ -35,6 +56,58 @@
           "quite_uncomfortable": "Very humid, quite uncomfortable",
           "extremely_uncomfortable": "Extremely uncomfortable, oppressive",
           "severely_high": "Severely high, even deadly for asthma related illnesses"
+        }
+      },
+      "frost_point": {
+        "name": "Frostpunkt"
+      },
+      "frost_risk": {
+        "name": "Frostrisiko",
+        "state": {
+          "no_risk": "Ingen risiko",
+          "unlikely": "Lite sannsynlig",
+          "probable": "Sannsynlig",
+          "high": "Høy sannsynlighet"
+        }
+      },
+      "heat_index": {
+        "name": "Varmeindeks"
+      },
+      "humidex": {
+        "name": "Humidex"
+      },
+      "humidex_perception": {
+        "name": "Humidex persepsjon",
+        "state": {
+          "comfortable": "Komfortabel",
+          "noticable_discomfort": "Merkbart ubehag",
+          "evident_discomfort": "Tydelig ubehag",
+          "great_discomfort": "Stort ubehag, unngå anstrengelse",
+          "dangerous_discomfort": "Farlig ubehag",
+          "heat_stroke": "Mulig heteslag"
+        }
+      },
+      "moist_air_enthalpy": {
+        "name": "Entalpi av fuktig luft"
+      },
+      "relative_strain_perception": {
+        "name": "Relativ belastningsoppfatning",
+        "state": {
+          "outside_calculable_range": "Utenfor det kalkulerbare området",
+          "comfortable": "Komfortabel",
+          "slight_discomfort": "Lett ubehag",
+          "discomfort": "Ubehag",
+          "significant_discomfort": "Betydelig ubehag",
+          "extreme_discomfort": "Ekstremt ubehag"
+        }
+      },
+      "summer_scharlau_perception": {
+        "name": "Sommer scharlau persepsjon",
+        "state": {
+          "outside_calculable_range": "Utenfor det kalkulerbare området",
+          "comfortable": "Komfortabel",
+          "slightly_uncomfortable": "Litt ubehagelig",
+          "moderatly_uncomfortable": "Middels ubehagelig"
         }
       }
     }

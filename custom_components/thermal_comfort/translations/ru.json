@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Восприятие летнего кипячения",
         "state": {
           "cool": "Холодно",
           "slightly_cool": "Прохладно",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Ощущение дискомфорта Томса",
         "state": {
           "no_discomfort": "Нет дискомфорта",
           "less_than_half": "Менее половины населения испытывает дискомфорт",

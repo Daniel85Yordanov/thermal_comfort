@@ -1,7 +1,12 @@
 {
   "options": {
+    "error": {
+      "temperature_not_found": "A hőmérséklet-érzékelő nem található",
+      "humidity_not_found": "A páratartalom érzékelő nem található"
+    },
     "step": {
       "init": {
+        "title": "Termikus komfort beállítások",
         "data": {
           "temperature_sensor": "Hőmérséklet szenzor",
           "humidity_sensor": "Páratartalom érzékelő",
@@ -122,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Nyári forrongás érzékelése",
         "state": {
           "cool": "Hideg",
           "slightly_cool": "Enyhén hűvös",
@@ -132,6 +138,16 @@
           "danger_of_heatstroke": "Napszúrásveszély",
           "extreme_danger_of_heatstroke": "Rendkívüli napszúrásveszély",
           "circulatory_collapse_imminent": "Keringési összeomlás veszélye"
+        }
+      },
+      "thoms_discomfort_perception": {
+        "name": "Thoms kellemetlen érzés",
+        "state": {
+          "no_discomfort": "Nincs kellemetlen érzés",
+          "more_than_half": "A lakosság több mint fele kellemetlenül érzi magát",
+          "most": "A legtöbb ember kényelmetlenséget és pszichofizikai állapotának romlását érzi",
+          "everyone": "Mindenki jelentős kényelmetlenséget érez",
+          "dangerous": "Veszélyes, nagyon erős kényelmetlenség, amely hőgutát okozhat"
         }
       }
     }

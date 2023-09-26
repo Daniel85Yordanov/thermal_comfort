@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Zomerse sudderperceptie",
         "state": {
           "cool": "Koel",
           "slightly_cool": "Enigszins koel",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Thoms ongemakperceptie",
         "state": {
           "no_discomfort": "Niet ongemakkelijk",
           "less_than_half": "Minder, dan de helft van de populatie voelt ongemakkelijk",

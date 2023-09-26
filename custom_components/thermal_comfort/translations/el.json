@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Καλοκαιρινή αντίληψη σιγοβρασμού",
         "state": {
           "cool": "Δροσερή",
           "slightly_cool": "Ελαφρώς δροσερή",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Αντίληψη δυσφορίας Thoms",
         "state": {
           "no_discomfort": "Καμία ενόχληση",
           "less_than_half": "Λιγότερο από το ήμισυ του πληθυσμού αισθάνεται δυσφορία",

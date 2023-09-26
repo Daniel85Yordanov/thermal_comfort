@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percezione del sobbollire estivo",
         "state": {
           "cool": "Freddo",
           "slightly_cool": "Leggermente freddo",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Percezione di disagio di Thoms",
         "state": {
           "no_discomfort": "Confortevole",
           "less_than_half": "Meno della metà della popolazione avverte disagio",

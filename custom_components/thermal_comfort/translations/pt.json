@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepção de fervura de verão",
         "state": {
           "cool": "Frio",
           "slightly_cool": "Frio ligeiro",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Percepção de desconforto de Thoms",
         "state": {
           "no_discomfort": "Sem desconforto",
           "less_than_half": "Menos de metade da população sente desconforto",

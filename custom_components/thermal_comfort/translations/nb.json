@@ -1,7 +1,12 @@
 {
   "options": {
+    "error": {
+      "temperature_not_found": "Finner ikke temperatursensor",
+      "humidity_not_found": "Fuktighetssensor ikke funnet"
+    },
     "step": {
       "init": {
+        "title": "Termiske komfortinnstillinger",
         "data": {
           "temperature_sensor": "Temperatur sensor",
           "humidity_sensor": "Fuktighetssensor",
@@ -119,6 +124,31 @@
           "slightly_uncomfortable": "Litt ubehagelig",
           "moderatly_uncomfortable": "Middels ubehagelig",
           "highly_uncomfortable": "Svært ubehagelig"
+        }
+      },
+      "summer_simmer_perception": {
+        "name": "Sommeroppfatning",
+        "state": {
+          "cool": "Kul",
+          "slightly_cool": "Litt kult",
+          "comfortable": "Komfortabel",
+          "slightly_warm": "Litt varm",
+          "increasing_discomfort": "Økende ubehag",
+          "extremely_warm": "Ekstremt varmt",
+          "danger_of_heatstroke": "Fare for heteslag",
+          "extreme_danger_of_heatstroke": "Ekstrem fare for heteslag",
+          "circulatory_collapse_imminent": "Sirkulasjonskollaps nært forestående"
+        }
+      },
+      "thoms_discomfort_perception": {
+        "name": "Thoms ubehag oppfatning",
+        "state": {
+          "no_discomfort": "Ingen ubehag",
+          "less_than_half": "Mindre enn halvparten av befolkningen føler ubehag",
+          "more_than_half": "Mer enn halvparten av befolkningen føler ubehag",
+          "most": "De fleste individer føler ubehag og forverring av psykofysiske tilstander",
+          "everyone": "Alle føler betydelig ubehag",
+          "dangerous": "Farlig, veldig sterkt ubehag som kan forårsake heteslag"
         }
       }
     }

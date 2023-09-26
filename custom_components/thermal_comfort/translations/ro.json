@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepția de vară la foc mic",
         "state": {
           "cool": "Rece",
           "slightly_cool": "Ușor rece",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Thoms percepția de disconfort",
         "state": {
           "no_discomfort": "Niciun disconfort",
           "less_than_half": "Mai puțin de jumătate din populație simte disconfort",

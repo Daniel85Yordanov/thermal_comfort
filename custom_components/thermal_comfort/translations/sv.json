@@ -1,7 +1,12 @@
 {
   "options": {
+    "error": {
+      "temperature_not_found": "Temperatursensor hittades inte",
+      "humidity_not_found": "Fuktsensorn hittades inte"
+    },
     "step": {
       "init": {
+        "title": "Termiska komfortinställningar",
         "data": {
           "temperature_sensor": "Temperatursensor",
           "humidity_sensor": "Fuktighetssensor",
@@ -122,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Sommar sjuda uppfattning",
         "state": {
           "cool": "Svalt",
           "slightly_cool": "Ganska svalt",
@@ -132,6 +138,17 @@
           "danger_of_heatstroke": "Risk för värmeslag",
           "extreme_danger_of_heatstroke": "Extrem risk för värmeslag",
           "circulatory_collapse_imminent": "Allvarlig fara för kollaps"
+        }
+      },
+      "thoms_discomfort_perception": {
+        "name": "Thoms obehagsuppfattning",
+        "state": {
+          "no_discomfort": "Inget obehag",
+          "less_than_half": "Mindre än hälften av befolkningen känner obehag",
+          "more_than_half": "Mer än hälften av befolkningen känner obehag",
+          "most": "De flesta individer känner obehag och försämring av psykofysiska tillstånd",
+          "everyone": "Alla känner betydande obehag",
+          "dangerous": "Farligt, mycket starkt obehag som kan orsaka värmeslag"
         }
       }
     }

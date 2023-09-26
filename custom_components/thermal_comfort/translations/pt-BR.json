@@ -1,7 +1,12 @@
 {
   "options": {
+    "error": {
+      "temperature_not_found": "Sensor de temperatura não encontrado",
+      "humidity_not_found": "Sensor de umidade não encontrado"
+    },
     "step": {
       "init": {
+        "title": "Configurações de conforto térmico",
         "data": {
           "temperature_sensor": "Sensor de temperatura",
           "humidity_sensor": "Sensor de umidade",
@@ -122,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepção de fervura de verão",
         "state": {
           "cool": "Frio",
           "slightly_cool": "Um pouco frio",
@@ -132,6 +138,17 @@
           "danger_of_heatstroke": "Perigo de insolação",
           "extreme_danger_of_heatstroke": "Perigo extremo de insolação",
           "circulatory_collapse_imminent": "Colapso circulatório iminente"
+        }
+      },
+      "thoms_discomfort_perception": {
+        "name": "Percepção de desconforto de Thoms",
+        "state": {
+          "no_discomfort": "Sem desconforto",
+          "less_than_half": "Menos da metade da população sente desconforto",
+          "more_than_half": "Mais da metade da população sente desconforto",
+          "most": "A maioria dos indivíduos sente desconforto e deterioração das condições psicofísicas",
+          "everyone": "Todo mundo sente um desconforto significativo",
+          "dangerous": "Desconforto perigoso e muito forte que pode causar insolação"
         }
       }
     }

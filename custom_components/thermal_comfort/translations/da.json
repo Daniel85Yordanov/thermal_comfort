@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Sommer simre opfattelse",
         "state": {
           "cool": "Køligt",
           "slightly_cool": "Lidt køligt",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Thoms ubehag opfattelse",
         "state": {
           "no_discomfort": "Intet ubehag",
           "less_than_half": "Mindre end halvdelen af befolkningen føler ubehag",

@@ -1,7 +1,12 @@
 {
   "options": {
+    "error": {
+      "temperature_not_found": "Snímač teploty nenalezen",
+      "humidity_not_found": "Čidlo vlhkosti nenalezeno"
+    },
     "step": {
       "init": {
+        "title": "Nastavení tepelné pohody",
         "data": {
           "temperature_sensor": "Senzor teploty",
           "humidity_sensor": "Senzor vlhkosti",
@@ -24,6 +29,7 @@
     },
     "step": {
       "user": {
+        "title": "Nastavení tepelné pohody",
         "data": {
           "name": "název",
           "temperature_sensor": "Senzor teploty",
@@ -121,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Vnímání letního dusna",
         "state": {
           "cool": "Chladno",
           "slightly_cool": "Mírně chladno",
@@ -131,6 +138,17 @@
           "danger_of_heatstroke": "Nebezpečí úpalu",
           "extreme_danger_of_heatstroke": "Extrémní nebezpečí úpalu",
           "circulatory_collapse_imminent": "Hrozící kolaps krevního oběhu"
+        }
+      },
+      "thoms_discomfort_perception": {
+        "name": "Thomovo vnímání nepohodlí",
+        "state": {
+          "no_discomfort": "Žádné nepohodlí",
+          "less_than_half": "Méně než polovina populace pociťuje nepohodlí",
+          "more_than_half": "Více než polovina populace pociťuje nepohodlí",
+          "most": "Většina jedinců pociťuje nepohodlí a zhoršení psychofyzického stavu",
+          "everyone": "Každý pociťuje značné nepohodlí",
+          "dangerous": "Nebezpečné, velmi silné nepohodlí, které může způsobit úpal"
         }
       }
     }

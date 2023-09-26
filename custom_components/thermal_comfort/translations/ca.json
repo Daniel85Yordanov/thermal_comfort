@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepció d'estiu a foc lent",
         "state": {
           "cool": "Fred",
           "slightly_cool": "Una mica fred",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Percepció de malestar de Thoms",
         "state": {
           "no_discomfort": "No és incòmode",
           "less_than_half": "Menys de la meitat de la població sent malestar",

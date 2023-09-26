@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "夏日煨悟",
         "state": {
           "cool": "凉爽",
           "slightly_cool": "稍微凉爽",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "汤姆斯不适知觉",
         "state": {
           "no_discomfort": "无不适",
           "less_than_half": "不到一半的人感到不适",

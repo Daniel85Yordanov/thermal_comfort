@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepción del verano a fuego lento",
         "state": {
           "cool": "Fresco",
           "slightly_cool": "Ligeramente fresco",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Percepción de malestar de Thoms",
         "state": {
           "no_discomfort": "Sin molestias",
           "less_than_half": "Menos de la mitad de la población siente malestar",

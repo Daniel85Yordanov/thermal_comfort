@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Perception de la mijotation estivale",
         "state": {
           "cool": "Froid",
           "slightly_cool": "Légèrement froid",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Perception de l'inconfort de Thoms",
         "state": {
           "no_discomfort": "Pas de gêne",
           "less_than_half": "Moins de la moitié de la population ressent un inconfort",

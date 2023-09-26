@@ -127,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percepcja letniego duszenia",
         "state": {
           "cool": "Zimno",
           "slightly_cool": "Chłodnawo",
@@ -140,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Postrzeganie dyskomfortu Thoma",
         "state": {
           "no_discomfort": "Brak dyskomfortu",
           "less_than_half": "Mniej niż połowa populacji odczuwa dyskomfort",

@@ -1,14 +1,30 @@
 {
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "temperature_sensor": "Sensor de temperatura",
+          "humidity_sensor": "Sensor de umidade",
+          "poll": "Habilitar votação",
+          "scan_interval": "Intervalo de pesquisa (segundos)",
+          "custom_icons": "Use pacote de ícones personalizados"
+        }
+      }
+    }
+  },
+  "config": {
+    "abort": {
+      "already_configured": "Esta combinação de sensores de temperatura e umidade já está configurada",
+      "no_sensors": "Nenhum sensor de temperatura ou umidade encontrado. Tente novamente no modo avançado.",
+      "no_sensors_advanced": "Nenhum sensor de temperatura ou umidade encontrado."
+    },
+    "error": {
+      "temperature_not_found": "Sensor de temperatura não encontrado",
+      "humidity_not_found": "Sensor de umidade não encontrado"
+    }
+  },
   "entity": {
     "sensor": {
-      "frost_risk": {
-        "state": {
-          "no_risk": "Sem risco",
-          "unlikely": "Improvável",
-          "probable": "Provável",
-          "high": "Muito provável"
-        }
-      },
       "dew_point_perception": {
         "state": {
           "dry": "Seco",
@@ -19,6 +35,14 @@
           "quite_uncomfortable": "Muito desconfortável",
           "extremely_uncomfortable": "Extremamente desconfortável",
           "severely_high": "Severamente úmido"
+        }
+      },
+      "frost_risk": {
+        "state": {
+          "no_risk": "Sem risco",
+          "unlikely": "Improvável",
+          "probable": "Provável",
+          "high": "Muito provável"
         }
       },
       "summer_simmer_perception": {

@@ -1,14 +1,30 @@
 {
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "temperature_sensor": "Temperatursensor",
+          "humidity_sensor": "Fuktighetssensor",
+          "poll": "Aktivera polling",
+          "scan_interval": "Omröstningsintervall (sekunder)",
+          "custom_icons": "Använd anpassat ikonpaket"
+        }
+      }
+    }
+  },
+  "config": {
+    "abort": {
+      "already_configured": "Denna kombination av temperatur- och fuktighetssensorer är redan konfigurerad",
+      "no_sensors": "Inga temperatur- eller luftfuktighetssensorer hittades. Försök igen i avancerat läge.",
+      "no_sensors_advanced": "Inga temperatur- eller luftfuktighetssensorer hittades."
+    },
+    "error": {
+      "temperature_not_found": "Temperatursensor hittades inte",
+      "humidity_not_found": "Fuktsensorn hittades inte"
+    }
+  },
   "entity": {
     "sensor": {
-      "frost_risk": {
-        "state": {
-          "no_risk": "Ingen risk",
-          "unlikely": "Osannolikt",
-          "probable": "Sannolikt",
-          "high": "Stor risk"
-        }
-      },
       "dew_point_perception": {
         "state": {
           "dry": "Lite torrt",
@@ -19,6 +35,14 @@
           "quite_uncomfortable": "Väldigt fuktigt, ganska obekvämt",
           "extremely_uncomfortable": "Tryckande, extremt obekvämt",
           "severely_high": "Allvarligt högt, kan vara dödlig för astmarelaterade sjukdomar"
+        }
+      },
+      "frost_risk": {
+        "state": {
+          "no_risk": "Ingen risk",
+          "unlikely": "Osannolikt",
+          "probable": "Sannolikt",
+          "high": "Stor risk"
         }
       },
       "summer_simmer_perception": {

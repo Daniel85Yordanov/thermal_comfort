@@ -1,14 +1,30 @@
 {
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "temperature_sensor": "Senzor teploty",
+          "humidity_sensor": "Senzor vlhkosti",
+          "poll": "Povolit dotazování",
+          "scan_interval": "Interval dotazování (v sekundách)",
+          "custom_icons": "Použijte vlastní sadu ikon"
+        }
+      }
+    }
+  },
+  "config": {
+    "abort": {
+      "already_configured": "Tato kombinace snímačů teploty a vlhkosti je již nakonfigurována",
+      "no_sensors": "Nebyla nalezena žádná čidla teploty nebo vlhkosti. Zkuste to znovu v pokročilém režimu.",
+      "no_sensors_advanced": "Nebyla nalezena žádná čidla teploty nebo vlhkosti."
+    },
+    "error": {
+      "temperature_not_found": "Snímač teploty nenalezen",
+      "humidity_not_found": "Čidlo vlhkosti nenalezeno"
+    }
+  },
   "entity": {
     "sensor": {
-      "frost_risk": {
-        "state": {
-          "no_risk": "Žádné riziko",
-          "unlikely": "Nepravděpodobné",
-          "probable": "Pravděpodobné",
-          "high": "Vysoce pravděpodobné"
-        }
-      },
       "dew_point_perception": {
         "state": {
           "dry": "Pro někoho sucho",
@@ -19,6 +35,14 @@
           "quite_uncomfortable": "Velmi vlhko, docela nepříjemně",
           "extremely_uncomfortable": "Extrémně nepříjemně, tísnivě",
           "severely_high": "Velmi vysoká vlhkost, dokonce smrtelná pro jedince s nemocemi související s astmatem"
+        }
+      },
+      "frost_risk": {
+        "state": {
+          "no_risk": "Žádné riziko",
+          "unlikely": "Nepravděpodobné",
+          "probable": "Pravděpodobné",
+          "high": "Vysoce pravděpodobné"
         }
       },
       "summer_simmer_perception": {

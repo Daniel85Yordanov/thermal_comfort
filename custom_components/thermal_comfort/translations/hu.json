@@ -1,14 +1,30 @@
 {
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "temperature_sensor": "Hőmérséklet szenzor",
+          "humidity_sensor": "Páratartalom érzékelő",
+          "poll": "Lekérdezés engedélyezése",
+          "scan_interval": "Szavazási időköz (másodperc)",
+          "custom_icons": "Egyéni ikoncsomag használata"
+        }
+      }
+    }
+  },
+  "config": {
+    "abort": {
+      "already_configured": "A hőmérséklet- és páratartalom-érzékelők ezen kombinációja már konfigurálva van",
+      "no_sensors": "Nem található hőmérséklet- vagy páratartalom-érzékelő. Próbálja újra speciális módban.",
+      "no_sensors_advanced": "Nem található hőmérséklet- vagy páratartalom-érzékelő."
+    },
+    "error": {
+      "temperature_not_found": "A hőmérséklet-érzékelő nem található",
+      "humidity_not_found": "A páratartalom érzékelő nem található"
+    }
+  },
   "entity": {
     "sensor": {
-      "frost_risk": {
-        "state": {
-          "no_risk": "Nincs kockázat",
-          "unlikely": "Nem valószínű",
-          "probable": "Valószínű",
-          "high": "Nagy valószínűség"
-        }
-      },
       "dew_point_perception": {
         "state": {
           "dry": "Egyeseknek kissé száraz",
@@ -19,6 +35,14 @@
           "quite_uncomfortable": "Nagyon nedves, eléggé kellemetlen",
           "extremely_uncomfortable": "Rendkívül kellemetlen, nyomasztó",
           "severely_high": "Különösen magas, az asztmás betegségek számára életveszélyes"
+        }
+      },
+      "frost_risk": {
+        "state": {
+          "no_risk": "Nincs kockázat",
+          "unlikely": "Nem valószínű",
+          "probable": "Valószínű",
+          "high": "Nagy valószínűség"
         }
       },
       "summer_simmer_perception": {

@@ -1,14 +1,30 @@
 {
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "temperature_sensor": "Температурний сенсор",
+          "humidity_sensor": "Датчик вологості",
+          "poll": "Увімкнути опитування",
+          "scan_interval": "Інтервал опитування (секунди)",
+          "custom_icons": "Використовуйте спеціальний пакет іконок"
+        }
+      }
+    }
+  },
+  "config": {
+    "abort": {
+      "already_configured": "Ця комбінація датчиків температури та вологості вже налаштована",
+      "no_sensors": "Не знайдено датчиків температури чи вологості. Повторіть спробу в розширеному режимі.",
+      "no_sensors_advanced": "Не знайдено датчиків температури чи вологості."
+    },
+    "error": {
+      "temperature_not_found": "Датчик температури не знайдено",
+      "humidity_not_found": "Датчик вологості не знайдено"
+    }
+  },
   "entity": {
     "sensor": {
-      "frost_risk": {
-        "state": {
-          "no_risk": "Безпечно",
-          "unlikely": "Малоймовірно",
-          "probable": "Ймовірно",
-          "high": "Висока ймовірність"
-        }
-      },
       "dew_point_perception": {
         "state": {
           "dry": "Сухо",
@@ -19,6 +35,14 @@
           "quite_uncomfortable": "Досить волого, некомфортно",
           "extremely_uncomfortable": "Дуже волого, гнітюче",
           "severely_high": "Дуже висока вологість, може бути смертельною для для астматиків"
+        }
+      },
+      "frost_risk": {
+        "state": {
+          "no_risk": "Безпечно",
+          "unlikely": "Малоймовірно",
+          "probable": "Ймовірно",
+          "high": "Висока ймовірність"
         }
       },
       "summer_simmer_perception": {
